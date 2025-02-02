@@ -1,0 +1,37 @@
+.gaopanel {
+    border-radius: 25px;
+    
+    animation: popoutFade 1.5s ease-out forwards;
+    box-shadow: 0px 4px 16px #000000;
+  }
+
+  .title  {
+    font-size : 24pt;
+    font-family : Franklin Gothic Medium;
+    font-weight : bold;
+    color : white;
+    line-height : 100%;
+    filter: shadow(color=#003399, direction=115, strength=4); height: 40px; width: 100%; color: FFFFFF;
+    box-shadow: 0,40
+}
+
+  
+  @keyframes popoutFade {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+body
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
