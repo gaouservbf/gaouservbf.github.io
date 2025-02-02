@@ -6,13 +6,14 @@
   }
 
   .title  {
-    font-size : 24pt;
-    font-family : Franklin Gothic Medium;
-    font-weight : bold;
-    color : white;
-    line-height : 100%;
-    filter: shadow(color=#003399, direction=115, strength=4); height: 40px; width: 100%; color: FFFFFF;
-    box-shadow: 0,40
+    font-size: 24pt;
+    font-family: 'Franklin Gothic Medium', 'Arial', sans-serif; /* Fallback fonts */
+    font-weight: bold;
+    color: #FFFFFF; /* Hex color value */
+    line-height: 100%;
+    text-shadow: 4px 4px 4px #003399; /* Modernized shadow */
+    height: 40px;
+    width: 100%;
 }
 
   
